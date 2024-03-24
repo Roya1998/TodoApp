@@ -13,7 +13,7 @@ export default function AddTodo({ submitHandler }) {
       <TextInput
         style={styles.input}
         placeholder="new to do...."
-        placeholderTextColor={"coral"}
+        placeholderTextColor={"black"}
         onChangeText={changeHandler}
       />
       <Button
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 6,
     borderBottomWidth: 1,
-    borderBottomColor: "#ddd",
-    color: "coral",
+    borderBottomColor: "coral",
+    color: "black",
   },
 });
